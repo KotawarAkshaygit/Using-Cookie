@@ -29,7 +29,7 @@ public class CookieLet extends HttpServlet {
 			logger.info("successfully added");
 			System.out.println("I m inside the Cookie Servlet handler");
 			for (int i = 0; i < 5; i++) {
-				System.out.println("I m in for loop");
+				System.out.println("This is edited  by Ankesh pandey");
 				
 			}
 			response.sendRedirect("result.jsp");
