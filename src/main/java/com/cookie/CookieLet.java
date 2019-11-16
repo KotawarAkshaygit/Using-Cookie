@@ -32,6 +32,7 @@ public class CookieLet extends HttpServlet {
 				System.out.println("This is edited  by Ankesh pandey");
 				
 			}
+			System.out.println("Print");
 			response.sendRedirect("result.jsp");
 	}
 
