@@ -34,6 +34,7 @@ public class CookieLet extends HttpServlet {
 			}
 			System.out.println("Print");
 			System.out.println("Print1");
+			System.out.println("Print2");
 			response.sendRedirect("result.jsp");
 	}
 
